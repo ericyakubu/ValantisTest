@@ -1,0 +1,41 @@
+.filter {
+  display: flex;
+  padding: 2rem;
+  padding-bottom: 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.input,
+.select {
+  border: 2px solid blue;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  min-width: 180px;
+  transition: all 0.2s ease;
+
+  &:focus {
+    border-color: skyblue;
+    outline: skyblue;
+  }
+}
+
+.input {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.select {
+  &:hover {
+    cursor: pointer;
+  }
+}

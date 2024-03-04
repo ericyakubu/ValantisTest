@@ -1,0 +1,13 @@
+.pagination {
+  display: flex;
+  width: fit-content;
+  margin: 1rem auto 5vh;
+  gap: 2rem;
+  align-items: center;
+
+  span {
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(0, 0, 255, 0.699);
+  }
+}

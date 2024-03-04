@@ -1,0 +1,18 @@
+.button {
+  padding: 0.5rem 1rem;
+  min-width: 95px;
+  border-radius: 8px;
+  background: none;
+  border: 2px solid rgba(0, 0, 255, 0.473);
+  transition: all 0.2s ease;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(0, 0, 255, 0.473);
+
+  &:hover {
+    cursor: pointer;
+    border: 2px solid skyblue;
+    background: rgb(161, 222, 247);
+    color: white;
+  }
+}
